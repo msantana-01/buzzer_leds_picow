@@ -11,7 +11,7 @@ Este projeto implementa um sistema de controle de LEDs e um buzzer utilizando um
   
 - **Controle do Buzzer**: 
   - Tecla `#`: Ativa o buzzer por 1 segundo.
-  - Tecla `*`: Desliga todos os LEDs e o buzzer.
+  - Tecla `*`: Desliga qualquer LED ativo e/ou buzzer.
 
 ### Requisitos
 - Raspberry Pi Pico
@@ -34,6 +34,9 @@ Este projeto implementa um sistema de controle de LEDs e um buzzer utilizando um
 1. Conecte os LEDs, o buzzer e o teclado matricial aos pinos do Raspberry Pi Pico conforme a descrição acima.
 2. Compile o código utilizando o Pico SDK e carregue-o no seu Raspberry Pi Pico.
 3. Ao pressionar as teclas do teclado, o sistema irá acionar os LEDs e o buzzer conforme o mapeamento das teclas.
+
+### Projeto no Wokwi
+Você pode visualizar e testar o projeto no simulador online Wokwi através deste [link para o projeto no Wokwi](https://wokwi.com/projects/420174053898719233).
 
 ### Licença
 Este projeto é de código aberto e pode ser utilizado sob a licença MIT.
